@@ -16,9 +16,9 @@ public class TestClass {
 	System.out.println(e1);
 	System.out.println(e2);
 //	e2.setEid(3);
-	e2.setEname("Shyam");
+	e2.setEname("Shivansh");	//changed Shyam to Shivansh after cloning
 	e2.getDep().setDid(8);
-	e2.getDep().setDname("Acc");
+	e2.getDep().setDname("Accounts");		//changed Acc to Accounts after cloning
 	System.out.println(e1);
 	System.out.println(e2);
 //new Employee().getEid();
